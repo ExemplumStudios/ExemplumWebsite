@@ -1,6 +1,14 @@
 body {
     margin: 0;
 }
-.banner {
-    position: relative;
+#banner {
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#plumGraphic {
+    /*display: none;*/
 }
