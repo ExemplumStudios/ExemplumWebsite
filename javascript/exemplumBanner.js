@@ -13,22 +13,24 @@ $(document).ready(function () {
         
         singleTriangles.on('mouseover', triangleHoverAction);
         
+        singleTriangles.on('click', triangleClickAction);
+        
         function triangleHoverAction() {
             //console.log('click');
             //console.log(d3.select(this).attr('class'))
             
             var originalFill = d3.select(this).attr('fill');
-            console.log(originalFill);
+            //console.log(originalFill);
             
             function greenFill () {
                 var select = Math.round(Math.random()*2);
-                console.log('random number is ' + select);
+                //console.log('random number is ' + select);
                 
                 if (select < 1) {
-                    return '#7fc88f'
+                    return '#7fc88f';
                 } else {
-                    return '#95ce95'
-                }
+                    return '#95ce95';
+                };
             };
             
             //d3.select(this).style('opacity', '0.7').transition().duration(100).transition().duration(500).style('opacity','1');
@@ -39,6 +41,11 @@ $(document).ready(function () {
                 .style('fill', originalFill);
             
             d3.select(this).style('cursor', 'pointer');
-        }
+        };
     });
+    
+    function triangleClickAction () {
+        $('#logo').hide();
+        $('#content').show();
+    };
 });
