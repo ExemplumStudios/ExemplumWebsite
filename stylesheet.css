@@ -2,13 +2,11 @@ body {
     margin: 0;
 }
 #banner {
-    width: 80%;
     position: absolute;
-    left: 10%;
+    width: 50%;
+    max-height: 100vh;
+    left: 25%;
     top: 50%;
     transform: translateY(-50%);
-}
-
-#plumGraphic {
-    /*display: none;*/
+    overflow: hidden;
 }

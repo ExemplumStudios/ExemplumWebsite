@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 1000">
+    <g id='all'>
   <defs>
     <style>
       .cls-1 {
@@ -54,17 +55,17 @@
       }
     </style>
     <radialGradient id="radial-gradient" cx="500" cy="507.191" r="247.667" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#fff33b"/>
-      <stop offset="0.311" stop-color="#fff037"/>
-      <stop offset="0.637" stop-color="#ffe52a"/>
-      <stop offset="0.97" stop-color="#ffd415"/>
-      <stop offset="1" stop-color="#ffd213"/>
+      <stop offset="0" stop-color="#95ce95"/>
+      <stop offset="0.311" stop-color="#95ce95"/>
+      <stop offset="0.637" stop-color="#7fc88f"/>
+      <stop offset="0.97" stop-color="#7fc88f"/>
+      <stop offset="1" stop-color="#7fc88f"/>
     </radialGradient>
   </defs>
   <title>Square</title>
   <g id="logoSquare">
     <g id="plumGraphic">
-      <polygon id="plumFlesh" class="cls-1" points="500 261.427 337.114 320.712 250.444 470.829 280.544 641.535 413.33 752.956 586.67 752.956 719.456 641.535 749.556 470.829 662.886 320.712 500 261.427"/>
+        <a href='home.html'>
       <g id="plumSkin">
         <polygon id="Triangle17" class="cls-2" points="721.672 642.892 643.304 515.025 752.077 470.462 721.672 642.892"/>
         <polygon id="Triangle16" class="cls-3" points="721.672 642.892 587.545 755.438 558.089 625.888 721.672 642.892"/>
@@ -84,6 +85,7 @@
         <polygon id="Triangle2" class="cls-9" points="404.915 423.33 500 258.944 335.469 318.829 404.915 423.33"/>
         <polygon id="Triangle1" class="cls-10" points="247.923 470.462 404.915 423.33 335.469 318.829 247.923 470.462"/>
       </g>
+        </a>
       <g id="plumLeaf">
         <polygon id="leaf2" class="cls-11" points="500 228.416 412.455 216.199 361.924 130.501 500 228.416"/>
         <polygon id="leaf1" class="cls-12" points="500 228.416 457.799 144.759 361.924 130.501 500 228.416"/>
@@ -94,4 +96,5 @@
       </g>
     </g>
   </g>
+        </g>
 </svg>
