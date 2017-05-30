@@ -63,10 +63,26 @@ $(document).ready(function () {
                     .style('fill', originalFill);
             });
         };
+
+        function triangleClickAction() {
+            //fill all triangles green permanently
+            singleTriangles.each(function () {
+                var randomDelay = Math.random() * 500;
+
+                var singleTriangle = d3.select(this);
+
+                singleTriangle.transition()
+                    .delay(randomDelay)
+                    //.style('fill', '#7fc88f');
+                    .style('fill', greenFill);
+            });
+            //disable mouseover events during animation
+            singleTriangles.on('mouseover', null);
+            //hide logo and show content
+            $('#logo').stop().delay(1000).fadeOut(200);
+            $('#content').delay(1200).fadeIn(300);
+        };
     });
 
-    function triangleClickAction() {
-        $('#logo').stop().fadeOut(200);
-        $('#content').delay(200).fadeIn(300);
-    };
+
 });
