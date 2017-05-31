@@ -65,6 +65,8 @@ $(document).ready(function () {
         };
 
         function triangleClickAction() {
+            //fill the triangle you click on first
+            d3.select(this).transition().style('fill', greenFill)
             //fill all triangles green permanently
             singleTriangles.each(function () {
                 var randomDelay = Math.random() * 500;

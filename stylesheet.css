@@ -22,7 +22,7 @@ body {
     left: 25%;
     top: 50%;
     transform: translateY(-50%);
-    overflow: hidden;
+    overflow: scroll;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -30,5 +30,8 @@ body {
         width: 90%;
         left: 5%;
     }
-    #content
+    #content {
+        width: 90%;
+        left: 5%;
+    }
 }
